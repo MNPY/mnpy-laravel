@@ -11,5 +11,17 @@
         "psr-4": {
             "MNPY\\Laravel\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MNPY\\Laravel\\MNPYServiceProvider"
+            ],
+            "aliases": {
+                "MNPYTransaction": "MNPY\\Laravel\\Facades\\MNPYTransaction",
+                "MNPYPrice": "MNPY\\Laravel\\Facades\\MNPYPrice",
+                "MNPYToken": "MNPY\\Laravel\\Facades\\MNPYToken"
+            }
+        }
     }
 }
